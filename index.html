@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academlo Store</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="icon" href="./assets/academlo-icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="desktop-menu">
+            <div class="nav-anchors">
+                <div class="icon-container">
+                    <a href="#"><img src="./assets/academlo-icon.png" class="acad-icon"></a>
+                    <a href="#" class="nav-a">STORE</a>
+                </div>
+                <a href="#home" class="nav-home">Home</a>
+                <a href="#products" class="nav-a">Products</a>
+                <a href="#footer">Contact</a>
+            </div>
+            <div class="nav-end">
+                <a href="#cart" class="cart-bag">
+                    <span class="material-symbols-outlined">shopping_bag</span>
+                </a>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <div class="nav-anchors-mobile">
+                <div class="icon-container">
+                    <a href="#"><img src="./assets/academlo-icon.png" class="acad-icon"></a>
+                    <a href="#" class="nav-a">STORE</a>
+                </div>
+            </div>
+            <div class="nav-end-mobile">
+                <a href="#cart" class="cart-bag">
+                    <span class="material-symbols-outlined">shopping_bag</span>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                    menu
+                </span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="header-container">
+            <div class="header-info">
+                <h1>
+                    New Sweatshirt <br> COLLECTIONS 2022
+                </h1>
+                <p>
+                    Latest arrival of the new Hanes Midweight Crewneck sweatshirt imported from the 2022 series, with a modern design.
+                </p>
+                <p id="price">
+                    $14.00
+                </p>
+                <div class="header-buttons">
+                    <a href="#">Discover</a>
+                    <button class="cart-button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="header-image">
+                <img src="./assets/crewneck.png">
+            </div>
+    </header>
+    <main id="products">
+        <div class="products-container">
+            <div class="product-filters">
+                <div class="top-row">
+                    <div class="product-items show-all top-fc">
+                        <h3>Show All</h3>
+                        <p>show all products</p>
+                    </div>
+                    <div class="product-items show-hoodies">
+                        <h3>Hoodies</h3>
+                        <p>3 products</p>
+                    </div>
+                </div>
+                <div class="bottom-row">
+                    <div class="product-items show-shirts">
+                        <h3>Shirts</h3>
+                        <p>4 products</p>
+                    </div>
+                    <div class="product-items show-sweatshirts bot-lc">
+                        <h3>Sweatshirts</h3>
+                        <p>4 products</p>
+                    </div>
+                </div>
+            </div>
+            <div class="articles-container">
+                <div class="article-hoodies">
+                    <div class="article-img">
+                        <img src="./assets/hoodie.png" alt="hoodies">
+                    </div>
+                    <button class="article-add add-hoodies">+</button>
+                    <div class="article-info">
+                        <div class="article-price-stock">
+                            <h2 class="article-price">$14.00</h2>
+                            <div class="article-separator"></div>
+                            <p class="article-stock">Stock: 15</p>
+                        </div>
+                        <p class="article-name">Hoodies</p>
+                    </div>
+                </div>
+                <div class="article-shirts">
+                    <div class="article-img">
+                        <img src="./assets/shirt.png" alt="hoodies" class="article-pic">
+                    </div>
+                    <button class="article-add add-shirts">+</button>
+                    <div class="article-info">
+                        <div class="article-price-stock">
+                            <h2 class="article-price">$24.00</h2>
+                            <div class="article-separator"></div>
+                            <p class="article-stock">Stock: 15</p>
+                        </div>
+                        <p class="article-name">Shirts</p>
+                    </div>
+                </div>
+                <div class="article-sweatshirts">
+                    <div class="article-img">
+                        <img src="./assets/Sweatshirts.png" alt="hoodies">
+                    </div>
+                    <button class="article-add add-sweatshirts">+</button>
+                    <div class="article-info">
+                        <div class="article-price-stock">
+                            <h2 class="article-price">$24.00</h2>
+                            <div class="article-separator"></div>
+                            <p class="article-stock">Stock: 15</p>
+                        </div>
+                        <p class="article-name">Sweatshirts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section id="cart">
+        <h2 class="my-cart">My cart</h2>
+        <div class="cart-content">
+            <div class="cart-content1"></div>
+            <div class="cart-content2"></div>
+            <div class="cart-content3"></div>
+        </div>
+        <div class="cart-items-price">
+            <p class="cart-items">0 items</p>
+            <p class="cart-price">$0.00</p>
+        </div>
+        <div class="checkout-button">
+            <button><span class="material-symbols-outlined">verified_user</span>Checkout</button>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <h3 class="footer-title">Our Information</h3>
+                <p>San Martin, Buenos Aires</p>
+
+            </div>
+            <div class="footer-content">
+                <h3 class="footer-title">About Us</h3>
+                <a href="#">Support Center</a>
+                <a href="#">Customer Support</a>
+                <a href="#">About Us</a>
+                <a href="#">Copy right</a>
+
+            </div>
+            <div class="footer-content">
+                <h3 class="footer-title">Products</h3>
+                <a href="#">Hoodies</a>
+                <a href="#">Shirts</a>
+                <a href="#">Sweatshirts</a>
+
+            </div>
+            <div class="footer-content">
+                <h3 class="footer-title">Social</h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img src="./assets/linkedin.svg" alt="logo linkedin" class="social-icon">
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="./assets/twitter.svg" alt="logo twitter" class="social-icon">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="./assets/instagram.svg" alt="logo instagram" class="social-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-end">
+            <p>© ACADEMLO. All rigths reserved</p>
+        </div>
+    </footer>
+</body>
+<script src="./app.js"></script>
+
+</html>
